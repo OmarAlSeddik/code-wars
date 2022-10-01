@@ -1,3 +1,3 @@
-const even_or_odd = (number: number): string => {
-  return number % 2 === 0 ? "Even" : "Odd";
+const even_or_odd = (n: number): string => {
+  return n % 2 === 0 ? "Even" : "Odd";
 };
