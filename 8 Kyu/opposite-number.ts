@@ -1,4 +1,4 @@
-class Kata1 {
+export class Kata {
   static opposite(n: number) {
     return -n;
   }

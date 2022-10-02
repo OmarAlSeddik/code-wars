@@ -1,5 +1,5 @@
 // Solution 1
-class Kata3 {
+export class Kata {
   static disemvowel(str: string): string {
     return [...str]
       .filter((char) => !"aeiou".includes(char.toLowerCase()))
@@ -8,7 +8,7 @@ class Kata3 {
 }
 
 // Solution 2
-class Kata4 {
+export class Kata2 {
   static disemvowel(str: string): string {
     return str.replace(/[aeiou]/gi, "");
   }

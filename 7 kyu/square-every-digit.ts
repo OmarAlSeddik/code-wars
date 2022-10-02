@@ -1,4 +1,4 @@
-export class Kata5 {
+export class Kata {
   static squareDigits(n: number): number {
     return parseInt(
       n
